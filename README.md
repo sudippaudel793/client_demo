@@ -23,6 +23,9 @@ The Client Demo Project is a Ruby-based command-line tool that fetches client da
 - Find out if there are any clients with the same email in the dataset, and show those duplicates if any are found.
   - Run: ```ruby app/find_duplicate.rb```
 
+## 4. Running Test
+  - ```rspec --format documentation spec``` or ```rspec spec```
+
 # Assumption and decision made
 - The app is designed to run on command-line Ruby environments without a web interface.
 - The project assumes a flat JSON structure for client data fetched from an API.
@@ -49,6 +52,6 @@ The Client Demo Project is a Ruby-based command-line tool that fetches client da
 # Features or improvements for prioritise next
 - Display results in a user-friendly format (eg: table).
 - Pagination to handle large set of data.
-- Using ```simplecov``` gem to for test coverage.
+- Using ```simplecov``` gem to test coverage.
 - One file to run either search or duplicate detection, controlled by CLI arguments.
 - Move hardcoded API URLs to a YAML or .env configuration file.
