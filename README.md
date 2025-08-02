@@ -4,7 +4,9 @@ The Client Demo Project is a Ruby-based command-line tool that fetches client da
 # Setup and Usage Instructions
 ## Prerequisites
 - Ruby (version specified in `.ruby-version`)
-- Bundler (`gem install bundler` if not installed)
+- Bundler (`gem install bundler` if not installed)<br />
+[installation instruction using rbenv](#2-installation)
+
 ## 1. Clone the project
 - ```git clone git@github.com:sudippaudel793/client_demo.git```
 - ```cd client_demo```
